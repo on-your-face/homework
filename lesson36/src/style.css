@@ -1,0 +1,19 @@
+.main {
+    font-size: 0;
+    border: 1px solid #000;
+    border-radius: 15px 0 0 15px;
+    background: gray;
+    height: 500px;
+    overflow: auto;
+}
+
+.block {
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 300px;
+    background: #ef9a9a;
+    padding: 25px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 16px;
+}
