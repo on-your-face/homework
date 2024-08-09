@@ -1,0 +1,40 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.tittle {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 70px;
+    position: relative;
+}
+
+.tittle::after {
+    position: absolute;
+    right: 450px;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: #fa6363;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    transform: translateY(-15%);
+}
+
+.tittle::before {
+    position: absolute;
+    left: 450px;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: #5e5eee;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    transform: translateY(-15%);
+}
