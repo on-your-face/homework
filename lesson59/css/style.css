@@ -1,0 +1,39 @@
+body {
+    background: #212f3d;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.box__inline {
+    position: relative;
+    height: 500px;
+    width: 150px;
+    border-radius: 80px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(70,5,21,1) 24%, rgba(76,9,121,1) 56%, rgba(47,62,173,1) 73%, rgba(0,212,255,1) 100%);
+    border-radius: 50%;
+
+    animation: move-block 1s infinite alternate;
+}
+
+@keyframes move-block {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: calc(100% - 150px);
+    }
+}
