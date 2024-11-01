@@ -1,0 +1,17 @@
+/* В приоритет браузером берётся то, что подключено ниже. То есть всё то, что ниже, будет перебивать всё то, что выше. */
+/* Исключением является повышение специфичности за счёт добавления большего количества классов к одному тегу.ааааа */
+
+/*  */
+
+@import url("./css/page/reset.css");
+@import url("./css/page/fonts.css");
+@import url("./css/plugins/swiper-bundle.css");
+
+/*  */
+@import url("./css/page/everything_else.css");
+@import url("./css/page/gallery.css");
+@import url("./css/page/testimonials.css");
+@import url("./css/page/contact.css");
+
+/*  */
+@import url("./css/page/media.css");
